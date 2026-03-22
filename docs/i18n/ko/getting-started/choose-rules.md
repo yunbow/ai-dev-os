@@ -11,7 +11,7 @@
 
 각 규칙 세트에는 전체 4계층 구조가 포함되어 있습니다:
 
-```
+```text
 ai-dev-os-rules-{language}/
 ├── 01_philosophy/               # L1: 설계 철학 (샘플, 여러분의 언어로 재작성)
 ├── 02_decision-criteria/        # L2: 판단 기준 (샘플, 여러분의 언어로 재작성)

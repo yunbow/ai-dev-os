@@ -5,6 +5,7 @@ English | [日本語](../ja/operation-guide.md) | [简体中文](../zh-CN/operat
 이 문서는 **ai-dev-os 코어 리포지토리**(명세, 이론, 시작하기 가이드)의 운영에 대해 다룹니다.
 
 특정 구성요소의 운영 가이드는 아래를 참조하세요:
+
 - **규칙**: 각 규칙 리포지토리에 자체 `docs/operation-guide.md`가 있습니다
 - **플러그인**: 각 플러그인 리포지토리에 자체 `docs/operation-guide.md`가 있습니다
 
@@ -12,7 +13,7 @@ English | [日本語](../ja/operation-guide.md) | [简体中文](../zh-CN/operat
 
 ## 1. 리포지토리 구조
 
-```
+```text
 ai-dev-os/
 ├── spec/                        # 프레임워크 명세
 ├── theory/                      # 이론적 배경
@@ -21,6 +22,7 @@ ai-dev-os/
 ```
 
 이 리포지토리에는 AI Dev OS 프레임워크의 **명세와 이론만** 포함되어 있습니다. 실제 가이드라인 파일은 규칙 리포지토리에 있습니다:
+
 - [ai-dev-os-rules-typescript](https://github.com/yunbow/ai-dev-os-rules-typescript)
 - [ai-dev-os-rules-python](https://github.com/yunbow/ai-dev-os-rules-python)
 

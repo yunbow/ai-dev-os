@@ -11,7 +11,7 @@
 
 每个规则集包含完整的 4 层结构：
 
-```
+```text
 ai-dev-os-rules-{language}/
 ├── 01_philosophy/               # L1：设计哲学（示例，请用自己的语言重写）
 ├── 02_decision-criteria/        # L2：判断标准（示例，请用自己的语言重写）

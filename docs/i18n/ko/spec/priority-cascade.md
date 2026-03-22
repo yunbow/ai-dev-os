@@ -4,7 +4,7 @@
 
 AI Dev OS는 CSS 특이성에서 영감을 받은 우선순위 캐스케이드를 사용하여 규칙 충돌을 해결합니다:
 
-```
+```text
 1. [최고]   frameworks/[stack]/*   ← 가장 구체적
 2. [높음]   common/*               ← 공통이지만 구체적
 3. [중간]   project-specific/*     ← 프로젝트 컨텍스트

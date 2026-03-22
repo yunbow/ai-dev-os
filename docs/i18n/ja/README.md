@@ -7,7 +7,7 @@
 
 AI アシスタントのためのコーディングルールフレームワーク — Claude Code、Cursor、Kiro 対応
 
-```
+```text
 > /ai-dev-os-check
 
 ## AI Dev OS Check & Fix Report
@@ -103,7 +103,7 @@ AI Dev OS は、主要な AI コーディングアシスタントの効果的な
 <details>
 <summary>ディレクトリ構造</summary>
 
-```
+```text
 ai-dev-os/
 ├── spec/                        # フレームワーク仕様
 │   ├── 4-layer-model.md         #   Lifespan Layers（4層モデル）

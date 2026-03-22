@@ -4,7 +4,7 @@
 
 AI Dev OS は CSS の詳細度にヒントを得た Specificity Cascade を使ってルールの競合を解決します。
 
-```
+```text
 1. [Highest] frameworks/[stack]/*   ← Most specific
 2. [High]    common/*               ← Common but concrete
 3. [Medium]  project-specific/*     ← Project context

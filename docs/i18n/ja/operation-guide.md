@@ -3,6 +3,7 @@
 このドキュメントは、**ai-dev-os コアリポジトリ**（仕様、理論、導入ガイド）の運用について説明します。
 
 個別コンポーネントの運用ガイドについては以下を参照してください:
+
 - **ルール**: 各ルールリポジトリの `docs/operation-guide.md`
 - **プラグイン**: 各プラグインリポジトリの `docs/operation-guide.md`
 
@@ -10,7 +11,7 @@
 
 ## 1. リポジトリ構成
 
-```
+```text
 ai-dev-os/
 ├── spec/                        # フレームワーク仕様
 ├── theory/                      # 理論的背景
@@ -19,6 +20,7 @@ ai-dev-os/
 ```
 
 このリポジトリには、AI Dev OS フレームワークの**仕様と理論のみ**が含まれます。実際のガイドラインファイルはルールリポジトリにあります:
+
 - [ai-dev-os-rules-typescript](https://github.com/yunbow/ai-dev-os-rules-typescript)
 - [ai-dev-os-rules-python](https://github.com/yunbow/ai-dev-os-rules-python)
 
