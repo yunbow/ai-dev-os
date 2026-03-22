@@ -1,5 +1,6 @@
 # AI Dev OS
 
+[![Lint & Link Check](https://github.com/yunbow/ai-dev-os/actions/workflows/lint.yml/badge.svg)](https://github.com/yunbow/ai-dev-os/actions/workflows/lint.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](../../../LICENSE)
 
 > 将开发者的隐性知识转化为 AI 辅助编程的显性可执行规则。

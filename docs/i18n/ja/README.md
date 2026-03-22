@@ -1,5 +1,6 @@
 # AI Dev OS
 
+[![Lint & Link Check](https://github.com/yunbow/ai-dev-os/actions/workflows/lint.yml/badge.svg)](https://github.com/yunbow/ai-dev-os/actions/workflows/lint.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](../../../LICENSE)
 
 > 開発者の暗黙知を、AIコーディングのための明示的で強制可能なルールに変換する。

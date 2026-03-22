@@ -1,5 +1,6 @@
 # AI Dev OS
 
+[![Lint & Link Check](https://github.com/yunbow/ai-dev-os/actions/workflows/lint.yml/badge.svg)](https://github.com/yunbow/ai-dev-os/actions/workflows/lint.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](../../../LICENSE)
 
 > 개발자의 암묵적 지식을 AI 지원 코딩을 위한 명시적이고 강제 가능한 규칙으로 변환합니다.

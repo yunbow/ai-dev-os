@@ -1,5 +1,6 @@
 # AI Dev OS
 
+[![Lint & Link Check](https://github.com/yunbow/ai-dev-os/actions/workflows/lint.yml/badge.svg)](https://github.com/yunbow/ai-dev-os/actions/workflows/lint.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 
 > Turn tacit developer knowledge into explicit, enforceable rules for AI-assisted coding.
