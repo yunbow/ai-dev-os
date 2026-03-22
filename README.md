@@ -35,8 +35,6 @@ AI Dev OS solves this by making tacit knowledge explicit:
 
 AI Dev OS complements your AI tool — it doesn't replace it. Claude Code, Kiro, and Cursor handle code generation; AI Dev OS handles the rules they follow.
 
-![AI Dev OS Check & Fix Report](docs/images/ai-dev-os-check.png)
-
 ## Quick Start
 
 ```bash

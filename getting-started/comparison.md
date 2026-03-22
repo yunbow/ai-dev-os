@@ -21,12 +21,14 @@ A framework for turning tacit developer knowledge into explicit, enforceable rul
 ## When to Choose AI Dev OS
 
 **Choose AI Dev OS if you:**
+
 - Want rules that survive tool changes (Claude Code → Kiro → Cursor)
 - Need a system that improves over time (Rule Harvesting + SECI spiral)
 - Value "why" over "what" — understanding principles, not just following templates
 - Work across multiple projects and want reusable guidelines
 
 **Choose something else if you:**
+
 - Want lightweight context documents without a layered model (→ ContextKit)
 - Want a one-session workflow optimizer (→ GSD)
 - Need multi-agent orchestration for large teams (→ BMAD)
@@ -43,19 +45,25 @@ AI Dev OS is not the right choice for every situation:
 ## Key Differentiators
 
 ### 1. Rules with Expiration Dates
+
 Every rule has a shelf life. L1 (philosophy) lasts 2-5 years. L4 (tool config) lasts 2-4 months. This prevents rule rot.
 
 ### 2. Bottom-Up Rule Discovery
+
 Don't write rules top-down. Let AI generate code, find gaps, extract rules from real failures. Rules grounded in experience, not theory.
 
 ### 3. "Less is More" for Context
+
 [Benchmark data](https://github.com/yunbow/ai-dev-os-benchmark) proves too many rules degrade AI output. AI Dev OS loads only 3-5 project-specific files in static context (~8K tokens), then verifies all rules post-generation via dynamic check+fix. This scored 96.9/100 vs 79.3/100 for loading all guidelines.
 
 ### 4. The Sentinel Rule
+
 Security rules with zero violations are *working* — never remove them for being "unused."
 
 ### 5. AI Cost Optimization
+
 AI Dev OS reduces AI-related costs in three ways:
+
 - **Fewer rework cycles**: Specific guidelines + post-generation check catches issues before code review, reducing human review time
 - **Token efficiency**: 3-5 files (~8K tokens) in static context instead of 28 files (~75K tokens) — 90% token reduction with better results
 - **Tool migration savings**: 75% of rules survive tool changes (L1-L3). Switching from Claude Code to Cursor doesn't mean rewriting all your coding standards

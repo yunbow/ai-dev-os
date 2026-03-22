@@ -3,6 +3,7 @@
 本文档涵盖 **ai-dev-os 核心仓库**（规范、理论、入门指南）的运维。
 
 各组件的运维指南请参阅：
+
 - **规则**：各规则仓库的 `docs/operation-guide.md`
 - **插件**：各插件仓库的 `docs/operation-guide.md`
 
@@ -10,7 +11,7 @@
 
 ## 1. 仓库结构
 
-```
+```text
 ai-dev-os/
 ├── spec/                        # 框架规范
 ├── theory/                      # 理论背景
@@ -19,6 +20,7 @@ ai-dev-os/
 ```
 
 本仓库仅包含 AI Dev OS 框架的**规范和理论**。实际的指南文件位于规则仓库中：
+
 - [ai-dev-os-rules-typescript](https://github.com/yunbow/ai-dev-os-rules-typescript)
 - [ai-dev-os-rules-python](https://github.com/yunbow/ai-dev-os-rules-python)
 

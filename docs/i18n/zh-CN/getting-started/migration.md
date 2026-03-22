@@ -11,15 +11,19 @@ AI Dev OS 的 4 层模型确保**75% 的投资（L1-L3）**在工具迁移中得
 1. **保留**：`docs/ai-dev-os/` submodule（L1-L3 规则）— 无需更改
 2. **移除**：`.claude/plugins/ai-dev-os/` submodule
 3. **添加**：Kiro 插件
+
    ```bash
    git submodule add https://github.com/yunbow/ai-dev-os-plugin-kiro.git .kiro/plugins/ai-dev-os
    cp -r .kiro/plugins/ai-dev-os/steering/ .kiro/steering/
    cp -r .kiro/plugins/ai-dev-os/hooks/ .kiro/hooks/
    ```
+
 4. **转换**：CLAUDE.md → AGENTS.md（内容相同，Kiro 读取 AGENTS.md）
+
    ```bash
    cp CLAUDE.md AGENTS.md
    ```
+
 5. **验证**：在 Kiro 中运行 `#ai-dev-os-init` 确认设置
 
 ### 从 Claude Code 迁移到 Cursor
@@ -27,14 +31,18 @@ AI Dev OS 的 4 层模型确保**75% 的投资（L1-L3）**在工具迁移中得
 1. **保留**：`docs/ai-dev-os/` submodule — 无需更改
 2. **移除**：`.claude/plugins/ai-dev-os/` submodule
 3. **添加**：Cursor 插件
+
    ```bash
    git submodule add https://github.com/yunbow/ai-dev-os-plugin-cursor.git .cursor/plugins/ai-dev-os
    cp -r .cursor/plugins/ai-dev-os/rules/ .cursor/rules/
    ```
+
 4. **转换**：CLAUDE.md → .cursorrules
+
    ```bash
    cp CLAUDE.md .cursorrules
    ```
+
 5. **验证**：在 Cursor 中运行 `@ai-dev-os-init` 确认设置
 
 ### 从 Kiro 迁移到 Claude Code
@@ -42,13 +50,17 @@ AI Dev OS 的 4 层模型确保**75% 的投资（L1-L3）**在工具迁移中得
 1. **保留**：`docs/ai-dev-os/` submodule — 无需更改
 2. **移除**：`.kiro/steering/ai-dev-os-*` 文件和 hooks
 3. **添加**：Claude Code 插件
+
    ```bash
    git submodule add https://github.com/yunbow/ai-dev-os-plugin-claude-code.git .claude/plugins/ai-dev-os
    ```
+
 4. **转换**：AGENTS.md → CLAUDE.md
+
    ```bash
    cp AGENTS.md CLAUDE.md
    ```
+
 5. **验证**：运行 `/ai-dev-os-init`
 
 ### 从 Cursor 迁移到 Claude Code
@@ -56,13 +68,17 @@ AI Dev OS 的 4 层模型确保**75% 的投资（L1-L3）**在工具迁移中得
 1. **保留**：`docs/ai-dev-os/` submodule — 无需更改
 2. **移除**：`.cursor/rules/ai-dev-os-*` 文件
 3. **添加**：Claude Code 插件
+
    ```bash
    git submodule add https://github.com/yunbow/ai-dev-os-plugin-claude-code.git .claude/plugins/ai-dev-os
    ```
+
 4. **转换**：.cursorrules → CLAUDE.md
+
    ```bash
    cp .cursorrules CLAUDE.md
    ```
+
 5. **验证**：运行 `/ai-dev-os-init`
 
 ## 可迁移的内容（75%）

@@ -31,7 +31,7 @@ La idea clave: **AI Dev OS es un sistema de creación de conocimiento, no solo u
 
 El modelo SECI es una espiral, no un proceso unidireccional:
 
-```
+```text
 L4 práctica → descubre nuevo conocimiento tácito → L1 evoluciona
      ↑                                              ↓
      └──── L3 reglas ← L2 principios ← L1 valores ──┘
@@ -42,11 +42,13 @@ El comando `/ai-dev-os-evolve` implementa esta espiral analizando las prácticas
 ## Por Qué Esto Importa
 
 Sin reglas explícitas:
+
 - La IA genera código que **parece correcto pero viola las normas del equipo**
 - La revisión de código se convierte en una **sesión de enseñanza repetida** para los mismos problemas
 - El conocimiento **se va cuando las personas se van** — la IA nunca lo aprendió
 
 Con AI Dev OS:
+
 - El conocimiento tácito se captura como reglas explícitas, versionadas y aplicables
 - La IA **mejora con cada revisión de código** (mediante Rule Harvesting)
 - El conocimiento **sobrevive a los cambios de equipo** y las migraciones de herramientas

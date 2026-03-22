@@ -4,7 +4,7 @@
 
 AI Dev OS 使用受 CSS 特异性启发的优先级级联来解决规则冲突：
 
-```
+```text
 1. [Highest] frameworks/[stack]/*   ← Most specific
 2. [High]    common/*               ← Common but concrete
 3. [Medium]  project-specific/*     ← Project context

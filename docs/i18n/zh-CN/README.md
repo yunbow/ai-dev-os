@@ -7,7 +7,7 @@
 
 AI 助手的编程规则框架 — 支持 Claude Code、Cursor 和 Kiro
 
-```
+```text
 > /ai-dev-os-check
 
 ## AI Dev OS Check & Fix Report
@@ -34,8 +34,6 @@ AI Dev OS 通过将隐性知识显性化来解决这个问题：
 - **纯 Markdown** — 无 DSL，无编译。Fork、修改、审计每一条规则
 
 AI Dev OS 是 AI 工具的补充，而非替代。Claude Code、Kiro 和 Cursor 负责代码生成；AI Dev OS 负责它们遵循的规则。
-
-![AI Dev OS Check & Fix Report](../../../docs/images/ai-dev-os-check.png)
 
 ## 快速开始
 
@@ -105,7 +103,7 @@ AI Dev OS 提供了一种结构化方法来编写有效的 AI 编程规则文件
 <details>
 <summary>目录结构</summary>
 
-```
+```text
 ai-dev-os/
 ├── spec/                        # 框架规范
 │   ├── 4-layer-model.md         #   Lifespan Layers（4 层模型）

@@ -35,8 +35,6 @@ AI Dev OS resuelve esto haciendo explicito el conocimiento tacito:
 
 AI Dev OS complementa tu herramienta de IA, no la reemplaza. Claude Code, Kiro y Cursor se encargan de la generacion de codigo; AI Dev OS se encarga de las reglas que siguen.
 
-![AI Dev OS Check & Fix Report](../../../docs/images/ai-dev-os-check.png)
-
 ## Inicio Rapido
 
 ```bash

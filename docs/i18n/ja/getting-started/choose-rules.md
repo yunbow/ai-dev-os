@@ -11,7 +11,7 @@
 
 各ルールセットには、完全な4層構造が含まれています:
 
-```
+```text
 ai-dev-os-rules-{language}/
 ├── 01_philosophy/               # L1: 設計思想（サンプル、自分の言葉で書き換え）
 ├── 02_decision-criteria/        # L2: 判断基準（サンプル、自分の言葉で書き換え）

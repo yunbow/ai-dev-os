@@ -10,7 +10,7 @@ AI Dev OS guidelines and multi-LLM review are not alternatives. They cover diffe
 
 ## The Core Insight
 
-```
+```text
 Quality
  ↑
  |          ┌─── Multi-LLM debate (ceiling effect)
@@ -53,7 +53,7 @@ Quality
 
 ## The Recommended Model: Guideline-First, Debate-on-Risk
 
-```
+```text
 Phase 1: Code Generation
   AI writes code with AI Dev OS guidelines loaded in context (CLAUDE.md)
   → Baseline quality via static rules (10-15 high-impact rules)
@@ -97,7 +97,7 @@ Phase 4: Knowledge Feedback
 
 The most powerful insight: **multi-LLM debate is a guideline discovery engine**.
 
-```
+```text
 Multi-LLM debate finds new pattern
   → Extract as L3 guideline (Rule Harvesting)
   → Add to ai-dev-os rules

@@ -5,6 +5,7 @@ English | [日本語](i18n/ja/operation-guide.md) | [简体中文](i18n/zh-CN/op
 This document covers the operation of the **ai-dev-os core repository** (specification, theory, getting-started guide).
 
 For operation guides on specific components, see:
+
 - **Rules**: Each rules repository has its own `docs/operation-guide.md`
 - **Plugins**: Each plugin repository has its own `docs/operation-guide.md`
 
@@ -12,15 +13,16 @@ For operation guides on specific components, see:
 
 ## 1. Repository Structure
 
-```
+```text
 ai-dev-os/
 ├── spec/                        # Framework specification
 ├── theory/                      # Theoretical background
 ├── getting-started/             # Getting started guides
 └── docs/                        # This guide + i18n
-```
+```text
 
 This repository contains **only the specification and theory** of the AI Dev OS framework. The actual guideline files are in the rules repositories:
+
 - [ai-dev-os-rules-typescript](https://github.com/yunbow/ai-dev-os-rules-typescript)
 - [ai-dev-os-rules-python](https://github.com/yunbow/ai-dev-os-rules-python)
 

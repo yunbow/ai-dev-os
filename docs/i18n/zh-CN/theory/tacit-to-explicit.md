@@ -31,7 +31,7 @@ AI Dev OS 直接映射到野中郁次郎的 SECI 知识创造模型（1995）：
 
 SECI 模型是一个螺旋，而非单向过程：
 
-```
+```text
 L4 practice → discovers new tacit knowledge → L1 evolves
      ↑                                              ↓
      └──── L3 rules ← L2 principles ← L1 values ──┘
@@ -42,11 +42,13 @@ L4 practice → discovers new tacit knowledge → L1 evolves
 ## 为什么这很重要
 
 没有显式规则：
+
 - AI 生成的代码**看起来正确但违反了团队规范**
 - 代码审查变成了对相同问题的**反复教学课程**
 - 知识**随人员离开而流失**——AI 从未学到过
 
 使用 AI Dev OS：
+
 - 隐性知识被捕获为显式的、版本化的、可执行的规则
 - AI **随着每次代码审查而改进**（通过Rule Harvesting）
 - 知识**经受住团队变动**和工具迁移

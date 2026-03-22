@@ -31,6 +31,7 @@ La estructura de directorios de tu equipo, las convenciones de manejo de errores
 ### 2. Endurecimiento de Seguridad Más Allá de la Línea Base
 
 Los modelos de IA generan código que cumple con el estándar de seguridad *promedio* de sus datos de entrenamiento. Tus requisitos de producción están por encima del promedio:
+
 - Generación de tokens criptográficos (no UUID/CUID)
 - Limitación de tasa en Server Actions de autenticación (no solo en rutas de API)
 - Escape de HTML en plantillas de correo electrónico (no solo en JSX)
@@ -44,6 +45,7 @@ El registro estructurado con IDs de solicitud, pistas de auditoría, manejo de d
 ### 4. Patrones de Frameworks Heredados e Internos
 
 Para proyectos que usan:
+
 - Frameworks internos de la empresa que no están en los datos de entrenamiento públicos
 - Versiones antiguas de frameworks (por ejemplo, patrones de Next.js 13 Pages Router)
 - Abstracciones personalizadas construidas sobre frameworks estándar
@@ -52,7 +54,7 @@ Los modelos de IA **no tienen datos de entrenamiento** para estos. Las directric
 
 ## La Propuesta de Valor en Evolución
 
-```
+```text
 Hoy (2025-2026):
   Valor de AI Dev OS = patrones específicos del proyecto + endurecimiento de seguridad + mejores prácticas generales
                                                                                        ↑ esta parte se reduce
@@ -91,6 +93,7 @@ Futuro (2027+):
 ## Para Proyectos Heredados
 
 AI Dev OS es particularmente valioso para proyectos heredados donde:
+
 - La versión del framework es anterior a la fecha de corte de entrenamiento del modelo
 - Las abstracciones internas no están en ningún dato de entrenamiento público
 - Las convenciones del equipo han evolucionado de manera diferente a los estándares de la comunidad

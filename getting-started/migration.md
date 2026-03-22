@@ -23,6 +23,7 @@ AI Dev OS's 4-layer model ensures that **75% of your investment (L1-L3)** surviv
    ```bash
    cp CLAUDE.md AGENTS.md
    ```
+
 5. **Verify**: Run `#ai-dev-os-init` in Kiro to confirm setup
 
 ### From Claude Code to Cursor
@@ -41,6 +42,7 @@ AI Dev OS's 4-layer model ensures that **75% of your investment (L1-L3)** surviv
    ```bash
    cp CLAUDE.md .cursorrules
    ```
+
 5. **Verify**: Run `@ai-dev-os-init` in Cursor to confirm setup
 
 ### From Kiro to Claude Code
@@ -76,6 +78,7 @@ AI Dev OS's 4-layer model ensures that **75% of your investment (L1-L3)** surviv
    ```bash
    cp .cursorrules CLAUDE.md
    ```
+
 5. **Verify**: Run `/ai-dev-os-init`
 
 ## What Transfers (75%)

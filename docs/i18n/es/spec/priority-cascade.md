@@ -4,7 +4,7 @@
 
 AI Dev OS resuelve conflictos de reglas usando una cascada de prioridad inspirada en la especificidad CSS:
 
-```
+```text
 1. [Más alta]  frameworks/[stack]/*   ← Más específica
 2. [Alta]      common/*               ← Común pero concreta
 3. [Media]     project-specific/*     ← Contexto del proyecto

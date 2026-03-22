@@ -11,7 +11,7 @@
 
 Each rule set contains the full 4-layer structure:
 
-```
+```text
 ai-dev-os-rules-{language}/
 ├── 01_philosophy/               # L1: Design Philosophy (sample, rewrite in your language)
 ├── 02_decision-criteria/        # L2: Decision Criteria (sample, rewrite in your language)
