@@ -11,15 +11,19 @@ El modelo de 4 capas de AI Dev OS garantiza que **el 75% de tu inversión (L1-L3
 1. **Mantener**: submódulo `docs/ai-dev-os/` (reglas L1-L3) — no se necesitan cambios
 2. **Eliminar**: submódulo `.claude/plugins/ai-dev-os/`
 3. **Agregar**: plugin de Kiro
+
    ```bash
    git submodule add https://github.com/yunbow/ai-dev-os-plugin-kiro.git .kiro/plugins/ai-dev-os
    cp -r .kiro/plugins/ai-dev-os/steering/ .kiro/steering/
    cp -r .kiro/plugins/ai-dev-os/hooks/ .kiro/hooks/
    ```
+
 4. **Convertir**: CLAUDE.md → AGENTS.md (mismo contenido, Kiro lee AGENTS.md)
+
    ```bash
    cp CLAUDE.md AGENTS.md
    ```
+
 5. **Verificar**: Ejecutar `#ai-dev-os-init` en Kiro para confirmar la configuración
 
 ### De Claude Code a Cursor
@@ -27,14 +31,18 @@ El modelo de 4 capas de AI Dev OS garantiza que **el 75% de tu inversión (L1-L3
 1. **Mantener**: submódulo `docs/ai-dev-os/` — no se necesitan cambios
 2. **Eliminar**: submódulo `.claude/plugins/ai-dev-os/`
 3. **Agregar**: plugin de Cursor
+
    ```bash
    git submodule add https://github.com/yunbow/ai-dev-os-plugin-cursor.git .cursor/plugins/ai-dev-os
    cp -r .cursor/plugins/ai-dev-os/rules/ .cursor/rules/
    ```
+
 4. **Convertir**: CLAUDE.md → .cursorrules
+
    ```bash
    cp CLAUDE.md .cursorrules
    ```
+
 5. **Verificar**: Ejecutar `@ai-dev-os-init` en Cursor para confirmar la configuración
 
 ### De Kiro a Claude Code
@@ -42,13 +50,17 @@ El modelo de 4 capas de AI Dev OS garantiza que **el 75% de tu inversión (L1-L3
 1. **Mantener**: submódulo `docs/ai-dev-os/` — no se necesitan cambios
 2. **Eliminar**: archivos `.kiro/steering/ai-dev-os-*` y hooks
 3. **Agregar**: plugin de Claude Code
+
    ```bash
    git submodule add https://github.com/yunbow/ai-dev-os-plugin-claude-code.git .claude/plugins/ai-dev-os
    ```
+
 4. **Convertir**: AGENTS.md → CLAUDE.md
+
    ```bash
    cp AGENTS.md CLAUDE.md
    ```
+
 5. **Verificar**: Ejecutar `/ai-dev-os-init`
 
 ### De Cursor a Claude Code
@@ -56,13 +68,17 @@ El modelo de 4 capas de AI Dev OS garantiza que **el 75% de tu inversión (L1-L3
 1. **Mantener**: submódulo `docs/ai-dev-os/` — no se necesitan cambios
 2. **Eliminar**: archivos `.cursor/rules/ai-dev-os-*`
 3. **Agregar**: plugin de Claude Code
+
    ```bash
    git submodule add https://github.com/yunbow/ai-dev-os-plugin-claude-code.git .claude/plugins/ai-dev-os
    ```
+
 4. **Convertir**: .cursorrules → CLAUDE.md
+
    ```bash
    cp .cursorrules CLAUDE.md
    ```
+
 5. **Verificar**: Ejecutar `/ai-dev-os-init`
 
 ## Qué Se Transfiere (75%)

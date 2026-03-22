@@ -21,12 +21,14 @@ Un framework para convertir el conocimiento tácito del desarrollador en reglas 
 ## Cuándo Elegir AI Dev OS
 
 **Elige AI Dev OS si:**
+
 - Quieres reglas que sobrevivan cambios de herramientas (Claude Code → Kiro → Cursor)
 - Necesitas un sistema que mejore con el tiempo (Rule Harvesting + espiral SECI)
 - Valoras el "por qué" sobre el "qué" — entender principios, no solo seguir plantillas
 - Trabajas en múltiples proyectos y quieres directrices reutilizables
 
 **Elige otra opción si:**
+
 - Quieres documentos de contexto ligeros sin un modelo por capas (→ ContextKit)
 - Quieres un optimizador de flujo de trabajo de una sola sesión (→ GSD)
 - Necesitas orquestación multi-agente para equipos grandes (→ BMAD)
@@ -43,15 +45,19 @@ AI Dev OS no es la opción correcta para todas las situaciones:
 ## Diferenciadores Clave
 
 ### 1. Reglas con Fechas de Expiración
+
 Cada regla tiene una vida útil. L1 (filosofía) dura 2-5 años. L4 (configuración de herramientas) dura 2-4 meses. Esto previene la obsolescencia de reglas.
 
 ### 2. Descubrimiento de Reglas de Abajo hacia Arriba
+
 No escribas reglas de arriba hacia abajo. Deja que la IA genere código, encuentra brechas, extrae reglas de fallos reales. Reglas fundamentadas en experiencia, no en teoría.
 
 ### 3. "Menos es Más" para el Contexto
+
 La investigación muestra que demasiadas reglas degradan la salida de la IA. AI Dev OS cura 10-15 reglas de alto impacto para contexto estático, y verifica todas las 30+ dinámicamente bajo demanda.
 
 ### 4. La Regla Centinela
+
 Las reglas de seguridad con cero violaciones están *funcionando* — nunca las elimines por ser "no utilizadas."
 
 ## Filosofía de Diseño: Diseño basado en Markdown

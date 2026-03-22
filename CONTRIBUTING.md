@@ -5,10 +5,12 @@ Thank you for your interest in contributing to AI Dev OS!
 ## How to Contribute
 
 ### Reporting Issues
+
 - Use [GitHub Issues](https://github.com/yunbow/ai-dev-os/issues) to report bugs or suggest improvements
 - Include the file path and section when reporting documentation issues
 
 ### Pull Requests
+
 1. Fork the repository
 2. Create a feature branch (`git checkout -b improve-spec`)
 3. Make your changes

@@ -4,7 +4,7 @@
 
 AI Dev OS organiza el conocimiento del desarrollador en cuatro capas, cada una con una vida útil y un nivel de abstracción distintos.
 
-```
+```text
 ┌──────────────────────────────────────────────────────┐
 │ L1: Filosofía                     Vida útil: 2-5 años │
 │ "Por qué construimos de esta manera"                  │
@@ -56,7 +56,7 @@ Las capas no son niveles de detalle. Sirven diferentes propósitos para diferent
 
 Cuando las reglas entran en conflicto, se resuelve por especificidad:
 
-```
+```text
 1. [Más alta]  frameworks/[stack]/*   ← Más específica
 2. [Alta]      common/*               ← Común pero concreta
 3. [Media]     project-specific/*     ← Contexto del proyecto
@@ -90,16 +90,19 @@ Este es el diferenciador clave de AI Dev OS: cuando cambias de herramienta de IA
 No todas las directrices deben cargarse en el contexto de la IA en todo momento. La investigación muestra que demasiadas reglas pueden degradar la calidad de la salida de la IA.
 
 **Contexto estático** (CLAUDE.md / .cursorrules / AGENTS.md):
+
 - Cargado por la IA en cada conversación
 - Debe contener solo **10-15 directrices de alto impacto** (seguridad, manejo de errores, nomenclatura, estructura del proyecto, descripción general del framework)
 - Curar manualmente — no eliminar automáticamente basándose en la frecuencia de violaciones (las reglas de baja frecuencia como las de seguridad pueden estar funcionando precisamente porque están presentes)
 
 **Verificaciones dinámicas** (skills/reglas del plugin):
+
 - Invocadas bajo demanda (`/ai-dev-os-check`, `/ai-dev-os-scan`, `/ai-dev-os-review`)
 - Verifican contra **todas las directrices** (30+) de forma exhaustiva
 - Sin dilución de atención porque la IA las procesa en una tarea de revisión enfocada, no durante la generación de código
 
 Este enfoque de dos niveles resuelve ambos problemas:
+
 - "Demasiadas reglas degradan la calidad" → el contexto estático está curado y enfocado
 - "Las reglas importantes no deben omitirse" → las verificaciones dinámicas cubren todo
 

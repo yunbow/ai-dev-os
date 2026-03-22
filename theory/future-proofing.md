@@ -31,6 +31,7 @@ Your team's directory structure, error handling conventions, validation patterns
 ### 2. Security Hardening Beyond the Baseline
 
 AI models generate code that meets the *average* security standard of their training data. Your production requirements are above average:
+
 - Cryptographic token generation (not UUID/CUID)
 - Rate limiting on auth Server Actions (not just API routes)
 - HTML escaping in email templates (not just in JSX)
@@ -44,6 +45,7 @@ Structured logging with request IDs, audit trails, GDPR data handling, and compl
 ### 4. Legacy and Internal Framework Patterns
 
 For projects using:
+
 - Internal company frameworks not in public training data
 - Older framework versions (e.g., Next.js 13 Pages Router patterns)
 - Custom abstractions built on top of standard frameworks
@@ -52,7 +54,7 @@ AI models have **no training data** for these. Guidelines provide the only way t
 
 ## The Evolving Value Proposition
 
-```
+```text
 Today (2025-2026):
   AI Dev OS value = project-specific patterns + security hardening + general best practices
                                                                     ↑ this part shrinks
@@ -91,6 +93,7 @@ Future (2027+):
 ## For Legacy Projects
 
 AI Dev OS is particularly valuable for legacy projects where:
+
 - The framework version is older than the model's training cutoff
 - Internal abstractions are not in any public training data
 - Team conventions have evolved differently from community standards

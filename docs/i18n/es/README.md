@@ -7,7 +7,7 @@
 
 Framework de reglas de codificación para asistentes de IA — Claude Code, Cursor y Kiro
 
-```
+```text
 > /ai-dev-os-check
 
 ## AI Dev OS Check & Fix Report
@@ -105,7 +105,7 @@ AI Dev OS proporciona un enfoque estructurado para escribir archivos de reglas d
 <details>
 <summary>Estructura de Directorios</summary>
 
-```
+```text
 ai-dev-os/
 ├── spec/                        # Especificacion del Framework
 │   ├── 4-layer-model.md         #   Lifespan Layers (modelo de 4 capas)

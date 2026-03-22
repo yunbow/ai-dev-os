@@ -11,7 +11,7 @@
 
 Cada conjunto de reglas contiene la estructura completa de 4 capas:
 
-```
+```text
 ai-dev-os-rules-{language}/
 ├── 01_philosophy/               # L1: Filosofía de Diseño (ejemplo, reescribir en tu lenguaje)
 ├── 02_decision-criteria/        # L2: Criterios de Decisión (ejemplo, reescribir en tu lenguaje)

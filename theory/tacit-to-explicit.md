@@ -31,7 +31,7 @@ The key insight: **AI Dev OS is a knowledge creation system, not just a document
 
 The SECI model is a spiral, not a one-way process:
 
-```
+```text
 L4 practice → discovers new tacit knowledge → L1 evolves
      ↑                                              ↓
      └──── L3 rules ← L2 principles ← L1 values ──┘
@@ -44,6 +44,7 @@ The `/ai-dev-os-evolve` command implements this spiral by analyzing recent codin
 AI coding assistants produce code that is generally competent — correct syntax, working logic, reasonable structure. But they systematically underperform in areas where **implicit team knowledge** is required:
 
 **Security:** AI generates code that "works" but has subtle vulnerabilities. Common examples:
+
 - Using `Math.random()` for tokens instead of `crypto.randomBytes()` — functionally equivalent but cryptographically insecure
 - Interpolating user input into email templates without HTML escaping — no runtime error, but XSS vector
 - Implementing auth endpoints without rate limiting — the feature works, but is vulnerable to brute force
@@ -57,11 +58,13 @@ AI coding assistants produce code that is generally competent — correct syntax
 ## Why This Matters
 
 Without explicit rules:
+
 - AI generates code that **looks correct but violates team norms**
 - Code review becomes a **repeated teaching session** for the same issues
 - Knowledge **leaves when people leave** — the AI never learned it
 
 With AI Dev OS:
+
 - Tacit knowledge is captured as explicit, versioned, enforceable rules
 - The AI **improves with every code review** (via Rule Harvesting)
 - Knowledge **survives team changes** and tool migrations

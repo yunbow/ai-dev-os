@@ -11,12 +11,15 @@ AI Dev OS's 4-layer model ensures that **75% of your investment (L1-L3)** surviv
 1. **Keep**: `docs/ai-dev-os/` submodule (L1-L3 rules) — no changes needed
 2. **Remove**: `.claude/plugins/ai-dev-os/` submodule
 3. **Add**: Kiro plugin
+
    ```bash
    git submodule add https://github.com/yunbow/ai-dev-os-plugin-kiro.git .kiro/plugins/ai-dev-os
    cp -r .kiro/plugins/ai-dev-os/steering/ .kiro/steering/
    cp -r .kiro/plugins/ai-dev-os/hooks/ .kiro/hooks/
    ```
+
 4. **Convert**: CLAUDE.md → AGENTS.md (same content, Kiro reads AGENTS.md)
+
    ```bash
    cp CLAUDE.md AGENTS.md
    ```
@@ -27,11 +30,14 @@ AI Dev OS's 4-layer model ensures that **75% of your investment (L1-L3)** surviv
 1. **Keep**: `docs/ai-dev-os/` submodule — no changes needed
 2. **Remove**: `.claude/plugins/ai-dev-os/` submodule
 3. **Add**: Cursor plugin
+
    ```bash
    git submodule add https://github.com/yunbow/ai-dev-os-plugin-cursor.git .cursor/plugins/ai-dev-os
    cp -r .cursor/plugins/ai-dev-os/rules/ .cursor/rules/
    ```
+
 4. **Convert**: CLAUDE.md → .cursorrules
+
    ```bash
    cp CLAUDE.md .cursorrules
    ```
@@ -42,13 +48,17 @@ AI Dev OS's 4-layer model ensures that **75% of your investment (L1-L3)** surviv
 1. **Keep**: `docs/ai-dev-os/` submodule — no changes needed
 2. **Remove**: `.kiro/steering/ai-dev-os-*` files and hooks
 3. **Add**: Claude Code plugin
+
    ```bash
    git submodule add https://github.com/yunbow/ai-dev-os-plugin-claude-code.git .claude/plugins/ai-dev-os
    ```
+
 4. **Convert**: AGENTS.md → CLAUDE.md
+
    ```bash
    cp AGENTS.md CLAUDE.md
    ```
+
 5. **Verify**: Run `/ai-dev-os-init`
 
 ### From Cursor to Claude Code
@@ -56,10 +66,13 @@ AI Dev OS's 4-layer model ensures that **75% of your investment (L1-L3)** surviv
 1. **Keep**: `docs/ai-dev-os/` submodule — no changes needed
 2. **Remove**: `.cursor/rules/ai-dev-os-*` files
 3. **Add**: Claude Code plugin
+
    ```bash
    git submodule add https://github.com/yunbow/ai-dev-os-plugin-claude-code.git .claude/plugins/ai-dev-os
    ```
+
 4. **Convert**: .cursorrules → CLAUDE.md
+
    ```bash
    cp .cursorrules CLAUDE.md
    ```

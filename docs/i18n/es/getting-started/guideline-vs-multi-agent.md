@@ -10,7 +10,7 @@ Las directrices de AI Dev OS y la revisión multi-LLM no son alternativas. Cubre
 
 ## La Idea Central
 
-```
+```text
 Calidad
  ↑
  |          ┌─── Debate multi-LLM (efecto techo)
@@ -53,7 +53,7 @@ Calidad
 
 ## El Modelo Recomendado: Directrices Primero, Debate Según Riesgo
 
-```
+```text
 Fase 1: Generación de Código
   La IA escribe código con las directrices de AI Dev OS cargadas en contexto (CLAUDE.md)
   → Calidad base mediante reglas estáticas (10-15 reglas de alto impacto)
@@ -97,7 +97,7 @@ Fase 4: Retroalimentación de Conocimiento
 
 La idea más poderosa: **el debate multi-LLM es un motor de descubrimiento de directrices**.
 
-```
+```text
 El debate multi-LLM encuentra un nuevo patrón
   → Extraer como directriz L3 (Rule Harvesting)
   → Agregar a las reglas de ai-dev-os

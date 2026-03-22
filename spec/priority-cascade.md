@@ -4,7 +4,7 @@
 
 AI Dev OS resolves rule conflicts using the Specificity Cascade, inspired by CSS specificity:
 
-```
+```text
 1. [Highest] frameworks/[stack]/*   ← Most specific
 2. [High]    common/*               ← Common but concrete
 3. [Medium]  project-specific/*     ← Project context

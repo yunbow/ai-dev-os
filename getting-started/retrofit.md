@@ -16,7 +16,7 @@ Follow the standard [Quick Start](./quick-start.md) to add rules and plugin as s
 
 Run a full project scan to understand your baseline:
 
-```
+```text
 /ai-dev-os-scan
 ```
 
@@ -49,7 +49,7 @@ Create your CLAUDE.md with only the guidelines relevant to your top 3 priority a
 
 Configure your workflow so that AI Dev OS checks apply to **new and modified code only**, not the entire codebase:
 
-```
+```text
 /ai-dev-os-check
 ```
 

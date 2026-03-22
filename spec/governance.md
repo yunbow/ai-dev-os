@@ -24,6 +24,7 @@
 ### Modifying L1/L2
 
 L1 and L2 changes require a written rationale explaining:
+
 - What changed and why
 - Impact on existing L3 guidelines
 - Whether any L3 rules need updating as a consequence

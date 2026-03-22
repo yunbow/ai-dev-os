@@ -5,6 +5,7 @@ English | [日本語](../ja/operation-guide.md) | [简体中文](../zh-CN/operat
 Este documento cubre la operación del **repositorio principal de ai-dev-os** (especificación, teoría, guía de inicio).
 
 Para guías de operación de componentes específicos, consulta:
+
 - **Reglas**: Cada repositorio de reglas tiene su propio `docs/operation-guide.md`
 - **Plugins**: Cada repositorio de plugins tiene su propio `docs/operation-guide.md`
 
@@ -12,7 +13,7 @@ Para guías de operación de componentes específicos, consulta:
 
 ## 1. Estructura del Repositorio
 
-```
+```text
 ai-dev-os/
 ├── spec/                        # Especificación del framework
 ├── theory/                      # Trasfondo teórico
@@ -21,6 +22,7 @@ ai-dev-os/
 ```
 
 Este repositorio contiene **solo la especificación y la teoría** del framework AI Dev OS. Los archivos de directrices reales están en los repositorios de reglas:
+
 - [ai-dev-os-rules-typescript](https://github.com/yunbow/ai-dev-os-rules-typescript)
 - [ai-dev-os-rules-python](https://github.com/yunbow/ai-dev-os-rules-python)
 

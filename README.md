@@ -7,7 +7,7 @@
 
 Coding rules framework for AI assistants — Claude Code, Cursor, and Kiro
 
-```
+```text
 > /ai-dev-os-check
 
 ## AI Dev OS Check & Fix Report
@@ -105,7 +105,7 @@ AI Dev OS provides a structured approach to writing effective AI coding rule fil
 <details>
 <summary>Directory Structure</summary>
 
-```
+```text
 ai-dev-os/
 ├── spec/                        # Framework Specification
 │   ├── 4-layer-model.md         #   Lifespan Layers (4-layer model)

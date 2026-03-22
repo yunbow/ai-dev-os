@@ -4,7 +4,7 @@
 
 AI Dev OS organizes developer knowledge into four layers, each with a distinct lifespan and abstraction level.
 
-```
+```text
 ┌──────────────────────────────────────────────────────┐
 │ L1: Philosophy                    Lifespan: 2-5 years │
 │ "Why we build this way"                               │
@@ -58,6 +58,7 @@ Layers are not levels of detail. They serve different purposes for different aud
 - **L1 (Philosophy)** and **L2 (Decision Criteria)** are abstract by design. "Correctness over convenience" or "prefer explicit error types" cannot be mechanically verified. Their value is in **aligning human team members on shared judgment criteria**, not in AI compliance.
 
 This means:
+
 - L1/L2 should be written for **humans to read and internalize**, not optimized for AI context injection
 - L3/L4 should be written with **maximum specificity** — naming exact methods, patterns, and anti-patterns
 - CLAUDE.md should primarily contain L3 rules; L1/L2 are better suited for team onboarding and code review discussions
@@ -66,7 +67,7 @@ This means:
 
 When rules conflict, resolve by specificity — inspired by CSS:
 
-```
+```text
 1. [Highest] frameworks/[stack]/*   ← Most specific
 2. [High]    common/*               ← Common but concrete
 3. [Medium]  project-specific/*     ← Project context
@@ -99,19 +100,22 @@ This is the key differentiator of AI Dev OS: when you switch AI tools, 75% of yo
 Not all guidelines should be loaded into the AI's context at all times. [Benchmark data](https://github.com/yunbow/ai-dev-os-benchmark) shows that loading too many guidelines **degrades** AI output quality through attention dilution — loading all 28 guideline files scored lower than no guidelines at all.
 
 **Static context** (CLAUDE.md / .cursorrules / AGENTS.md):
+
 - Loaded by the AI in every conversation
 - Should contain only **3-5 project-specific guideline files** (~8K tokens) — patterns the AI cannot infer from its training data (e.g., project directory conventions, specific validation patterns, security requirements unique to your stack)
 - Do NOT include general best practices (error handling, naming, API design) — the AI already knows these from training
 - Curate manually — do not auto-remove based on violation frequency
 
 **Dynamic checks** (plugin skills/rules):
+
 - Invoked on demand (`/ai-dev-os-check`) or automatically via hooks
 - Verify against a **specific checklist** of concrete, actionable items — not the full guideline text
 - The AI reviews its own generated code and **fixes violations** in a focused review task
 - This is the **primary quality mechanism** — benchmark data shows dynamic check+fix produces +9.9 points improvement vs baseline, while static guidelines alone show near-zero improvement
 
 **The generate → check → fix loop:**
-```
+
+```text
 CLAUDE.md (3-5 files, ~8K tokens)  → AI generates code
                                         ↓
 /ai-dev-os-check (checklist, ~3K)  → AI reviews and fixes violations
@@ -130,10 +134,12 @@ CLAUDE.md (3-5 files, ~8K tokens)  → AI generates code
 This is caused by **attention dilution** — a known property of transformer-based LLMs. As context length increases, each individual rule receives proportionally less attention from the self-attention mechanism. At ~75K tokens (all 28 guidelines), the AI performs worse than with no guidelines at all.
 
 The solution is not "better guidelines" but **fewer guidelines + post-generation verification**:
+
 - Static context: only what the AI cannot infer from training data (~8K tokens)
 - Dynamic check: comprehensive verification after generation, where attention is fully focused on review
 
 This two-tier approach solves both problems:
+
 - "Too many rules degrade quality" → static context is minimal and project-specific
 - "Important rules must not be missed" → dynamic check+fix catches everything post-generation
 
