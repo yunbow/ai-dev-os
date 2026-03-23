@@ -2,7 +2,7 @@
 
 ## 개요
 
-AI Dev OS의 4계층 모델은 새로운 발명이 아닙니다 — 50년에 걸친 15개 확립된 소프트웨어 공학 이론에서 관찰된 패턴에 대응됩니다.
+AI Dev OS의 4계층 모델은 새로운 발명이 아닙니다 — 50년에 걸친 16개 확립된 소프트웨어 공학 이론에서 관찰된 패턴에 대응됩니다.
 
 ## Tier 1: 직접적 구조 유사성
 
@@ -60,10 +60,11 @@ AI Dev OS의 4계층 모델은 새로운 발명이 아닙니다 — 50년에 걸
 | **TOGAF** (The Open Group, 1995) | 거버넌스: 누가 어떤 계층을 변경할 수 있는가 |
 | **Architecture Decision Records** (Nygard, 2011) | 결정뿐 아니라 근거를 기록; 대체 추적 |
 | **GoF Design Patterns** (1994) | 30년간의 증거: 추상적 패턴이 구체적 패턴보다 오래 살아남음 |
+| **TRON Architecture** (사카무라, 1984) | 용도별 분리(ITRON/BTRON/CTRON)를 HFDS로 통합; 도구별 계층이 공통 철학을 공유 |
 
 ## 6가지 교차 법칙
 
-15개 이론 전체를 분석하면 6가지 보편적 법칙이 드러납니다:
+16개 이론 전체를 분석하면 6가지 보편적 법칙이 드러납니다:
 
 | # | 법칙 | 출처 이론 |
 |---|------|-----------|
@@ -82,6 +83,7 @@ AI Dev OS의 4계층 모델은 새로운 발명이 아닙니다 — 50년에 걸
 - Gamma, E. et al. (1994). *Design Patterns*. Addison-Wesley.
 - Martin, R.C. (2017). *Clean Architecture*. Prentice Hall.
 - Nonaka, I. & Takeuchi, H. (1995). *The Knowledge-Creating Company*. Oxford University Press.
+- Sakamura, K. (1984). *TRON Project*. University of Tokyo.
 - Zachman, J. (1987). "A Framework for Information Systems Architecture." *IBM Systems Journal*, 26(3).
 
 ---

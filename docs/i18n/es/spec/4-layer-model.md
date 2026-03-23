@@ -39,7 +39,7 @@ Las capas superiores NO DEBEN referenciar a las capas inferiores.
 
 ### Vida Útil = Nivel de Abstracción
 
-Cuanto más abstracta es una capa, más tiempo dura. Esto no es coincidencia — es una ley universal observada en 15 teorías clásicas de ingeniería de software (ver [classical-theories.md](../theory/classical-theories.md)).
+Cuanto más abstracta es una capa, más tiempo dura. Esto no es coincidencia — es una ley universal observada en 16 teorías clásicas de ingeniería de software (ver [classical-theories.md](../theory/classical-theories.md)).
 
 ### Cada Capa es Cualitativamente Diferente
 

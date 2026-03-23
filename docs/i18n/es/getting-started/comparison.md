@@ -15,7 +15,7 @@ Un framework para convertir el conocimiento tácito del desarrollador en reglas 
 | **Resolución de conflictos** | Specificity Cascade | No definida | No definida | No definida | No definida | No definida |
 | **Sobrecarga de contexto** | Dos niveles (estáticas 3-5 reglas + verificación dinámica completa) | Alcance a nivel de documento | No abordada | Sub-agente nuevo | Especialización de agentes | Basado en hooks |
 | **Migración de herramientas** | 75% preservado (L1-L3 portables) | Parcialmente portable | La especificación sobrevive | Los documentos de estado sobreviven | Los documentos sobreviven | Basado en sesiones |
-| **Base teórica** | 15 teorías clásicas de IS | Ingeniería de contexto | Metodología SDD | Ingeniería de contexto | Ágil + agentes | PDCA |
+| **Base teórica** | 16 teorías clásicas de IS | Ingeniería de contexto | Metodología SDD | Ingeniería de contexto | Ágil + agentes | PDCA |
 | **Configuración** | `npx ai-dev-os init` (CLI) | Creación manual de Markdown | Scripts de shell | Basado en prompts | Asistente de múltiples pasos | Archivos de configuración |
 
 ## Cuándo Elegir AI Dev OS

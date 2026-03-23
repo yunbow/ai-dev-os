@@ -2,7 +2,7 @@
 
 ## Overview
 
-AI Dev OS's 4-layer model is not a novel invention — it maps to patterns observed across 15 established software engineering theories spanning 50 years.
+AI Dev OS's 4-layer model is not a novel invention — it maps to patterns observed across 16 established software engineering theories spanning 50 years.
 
 ## Tier 1: Direct Structural Similarity
 
@@ -60,10 +60,11 @@ AI Dev OS's 4-layer model is not a novel invention — it maps to patterns obser
 | **TOGAF** (The Open Group, 1995) | Governance: who can change which layer |
 | **Architecture Decision Records** (Nygard, 2011) | Record rationale, not just decisions; supersession tracking |
 | **GoF Design Patterns** (1994) | 30 years of evidence: abstract patterns outlive concrete ones |
+| **TRON Architecture** (Sakamura, 1984) | Purpose-specific separation (ITRON/BTRON/CTRON) unified by HFDS; tool-specific layers share a common philosophy |
 
 ## The 6 Cross-Cutting Laws
 
-Analyzing all 15 theories reveals 6 universal laws:
+Analyzing all 16 theories reveals 6 universal laws:
 
 | # | Law | Source Theories |
 |---|-----|-----------------|
@@ -82,6 +83,7 @@ Analyzing all 15 theories reveals 6 universal laws:
 - Gamma, E. et al. (1994). *Design Patterns*. Addison-Wesley.
 - Martin, R.C. (2017). *Clean Architecture*. Prentice Hall.
 - Nonaka, I. & Takeuchi, H. (1995). *The Knowledge-Creating Company*. Oxford University Press.
+- Sakamura, K. (1984). *TRON Project*. University of Tokyo.
 - Zachman, J. (1987). "A Framework for Information Systems Architecture." *IBM Systems Journal*, 26(3).
 
 ---

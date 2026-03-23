@@ -15,7 +15,7 @@ A framework for turning tacit developer knowledge into explicit, enforceable rul
 | **Conflict resolution** | Specificity Cascade | Not defined | Not defined | Not defined | Not defined | Not defined |
 | **Context overload** | Two-tier (static 3-5 rules + dynamic full check) | Document-level scoping | Not addressed | Fresh sub-agent | Agent specialization | Hook-based |
 | **Tool migration** | 75% preserved (L1-L3 portable) | Partially portable | Spec survives | State docs survive | Docs survive | Session-based |
-| **Theoretical basis** | 15 classical SE theories | Context engineering | SDD methodology | Context engineering | Agile + agents | PDCA |
+| **Theoretical basis** | 16 classical SE theories | Context engineering | SDD methodology | Context engineering | Agile + agents | PDCA |
 | **Setup** | `npx ai-dev-os init` (CLI) | Manual Markdown creation | Shell scripts | Prompt-based | Multi-step wizard | Config files |
 
 ## When to Choose AI Dev OS

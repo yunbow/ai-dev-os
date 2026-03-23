@@ -2,7 +2,7 @@
 
 ## Descripción General
 
-El modelo de 4 capas de AI Dev OS no es una invención nueva — se mapea a patrones observados en 15 teorías establecidas de ingeniería de software que abarcan 50 años.
+El modelo de 4 capas de AI Dev OS no es una invención nueva — se mapea a patrones observados en 16 teorías establecidas de ingeniería de software que abarcan 50 años.
 
 ## Nivel 1: Similitud Estructural Directa
 
@@ -60,10 +60,11 @@ El modelo de 4 capas de AI Dev OS no es una invención nueva — se mapea a patr
 | **TOGAF** (The Open Group, 1995) | Gobernanza: quién puede cambiar qué capa |
 | **Architecture Decision Records** (Nygard, 2011) | Registrar la justificación, no solo las decisiones; seguimiento de sustituciones |
 | **Patrones de Diseño GoF** (1994) | 30 años de evidencia: los patrones abstractos sobreviven a los concretos |
+| **Arquitectura TRON** (Sakamura, 1984) | Separación por propósito (ITRON/BTRON/CTRON) unificada por HFDS; las capas específicas de herramientas comparten una filosofía común |
 
 ## Las 6 Leyes Transversales
 
-El análisis de las 15 teorías revela 6 leyes universales:
+El análisis de las 16 teorías revela 6 leyes universales:
 
 | # | Ley | Teorías Fuente |
 |---|-----|----------------|
@@ -82,6 +83,7 @@ El análisis de las 15 teorías revela 6 leyes universales:
 - Gamma, E. et al. (1994). *Design Patterns*. Addison-Wesley.
 - Martin, R.C. (2017). *Clean Architecture*. Prentice Hall.
 - Nonaka, I. & Takeuchi, H. (1995). *The Knowledge-Creating Company*. Oxford University Press.
+- Sakamura, K. (1984). *TRON Project*. University of Tokyo.
 - Zachman, J. (1987). "A Framework for Information Systems Architecture." *IBM Systems Journal*, 26(3).
 
 ---

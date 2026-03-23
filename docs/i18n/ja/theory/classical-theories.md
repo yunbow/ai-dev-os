@@ -2,7 +2,7 @@
 
 ## 概要
 
-AI Dev OSの4層モデルは新しい発明ではない――50年にわたる15の確立されたソフトウェアエンジニアリング理論で観察されたパターンに対応している。
+AI Dev OSの4層モデルは新しい発明ではない――50年にわたる16の確立されたソフトウェアエンジニアリング理論で観察されたパターンに対応している。
 
 ## Tier 1: 直接的な構造的類似性
 
@@ -60,10 +60,11 @@ AI Dev OSの4層モデルは新しい発明ではない――50年にわたる15
 | **TOGAF** (The Open Group, 1995) | ガバナンス：誰がどのレイヤーを変更できるか |
 | **Architecture Decision Records** (Nygard, 2011) | 決定だけでなく根拠を記録する；置換の追跡 |
 | **GoF Design Patterns** (1994) | 30年の実証：抽象パターンは具体パターンより長生きする |
+| **TRON Architecture** (坂村, 1984) | 用途別分離（ITRON/BTRON/CTRON）をHFDSで統合；ツール固有レイヤーが共通の思想を共有する |
 
 ## 6つの横断的法則
 
-15の理論すべてを分析すると、6つの普遍的法則が明らかになる：
+16の理論すべてを分析すると、6つの普遍的法則が明らかになる：
 
 | # | 法則 | 根拠となる理論 |
 |---|-----|-----------------|
@@ -82,6 +83,7 @@ AI Dev OSの4層モデルは新しい発明ではない――50年にわたる15
 - Gamma, E. et al. (1994). *Design Patterns*. Addison-Wesley.
 - Martin, R.C. (2017). *Clean Architecture*. Prentice Hall.
 - Nonaka, I. & Takeuchi, H. (1995). *The Knowledge-Creating Company*. Oxford University Press.
+- Sakamura, K. (1984). *TRON Project*. University of Tokyo.
 - Zachman, J. (1987). "A Framework for Information Systems Architecture." *IBM Systems Journal*, 26(3).
 
 ---

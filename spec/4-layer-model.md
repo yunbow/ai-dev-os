@@ -37,7 +37,7 @@ Upper layers MUST NOT reference lower layers.
 
 ### Lifespan = Abstraction Level
 
-The more abstract a layer, the longer it lives. This is not coincidental — it is a universal law observed across 15 classical software engineering theories (see [classical-theories.md](../theory/classical-theories.md)).
+The more abstract a layer, the longer it lives. This is not coincidental — it is a universal law observed across 16 classical software engineering theories (see [classical-theories.md](../theory/classical-theories.md)).
 
 ### Each Layer is Qualitatively Different
 

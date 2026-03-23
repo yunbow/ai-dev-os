@@ -2,7 +2,7 @@
 
 ## 概述
 
-AI Dev OS 的 4 层模型并非全新发明——它映射到跨越 50 年的 15 个已建立的软件工程理论中观察到的模式。
+AI Dev OS 的 4 层模型并非全新发明——它映射到跨越 50 年的 16 个已建立的软件工程理论中观察到的模式。
 
 ## 第一梯队：直接结构相似性
 
@@ -60,10 +60,11 @@ AI Dev OS 的 4 层模型并非全新发明——它映射到跨越 50 年的 15
 | **TOGAF**（The Open Group，1995） | 治理：谁可以更改哪一层 |
 | **架构决策记录**（Nygard，2011） | 记录理由，而非仅是决策；替代追踪 |
 | **GoF 设计模式**（1994） | 30 年的证据：抽象模式比具体模式更长寿 |
+| **TRON 架构**（坂村，1984） | 按用途分离（ITRON/BTRON/CTRON）通过 HFDS 统一；工具特定层共享共同理念 |
 
 ## 6 条跨领域法则
 
-分析所有 15 个理论揭示了 6 条普适法则：
+分析所有 16 个理论揭示了 6 条普适法则：
 
 | # | 法则 | 来源理论 |
 |---|-----|-----------------|
@@ -82,6 +83,7 @@ AI Dev OS 的 4 层模型并非全新发明——它映射到跨越 50 年的 15
 - Gamma, E. et al. (1994). *Design Patterns*. Addison-Wesley.
 - Martin, R.C. (2017). *Clean Architecture*. Prentice Hall.
 - Nonaka, I. & Takeuchi, H. (1995). *The Knowledge-Creating Company*. Oxford University Press.
+- Sakamura, K. (1984). *TRON Project*. University of Tokyo.
 - Zachman, J. (1987). "A Framework for Information Systems Architecture." *IBM Systems Journal*, 26(3).
 
 ---
