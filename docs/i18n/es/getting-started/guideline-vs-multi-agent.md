@@ -56,7 +56,7 @@ Calidad
 ```text
 Fase 1: Generación de Código
   La IA escribe código con las directrices de AI Dev OS cargadas en contexto (CLAUDE.md)
-  → Calidad base mediante reglas estáticas (10-15 reglas de alto impacto)
+  → Calidad base mediante reglas estáticas (3-5 reglas de alto impacto)
   → Costo: incluido en la codificación normal con IA
 
 Fase 2: Verificación Pre-Commit (/ai-dev-os-check)

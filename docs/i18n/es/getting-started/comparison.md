@@ -13,7 +13,7 @@ Un framework para convertir el conocimiento tácito del desarrollador en reglas 
 | **Soporte de herramientas** | Claude Code + Kiro + Cursor | Claude Code (principal) | Multi-herramienta (shell) | Solo Claude Code | Multi-herramienta | Gemini + Claude |
 | **Evolución de reglas** | Integrada (`ai-dev-os-evolve`) | Manual | Manual | Manual | Manual | Manual |
 | **Resolución de conflictos** | Specificity Cascade | No definida | No definida | No definida | No definida | No definida |
-| **Sobrecarga de contexto** | Dos niveles (estáticas 10-15 reglas + verificación dinámica completa) | Alcance a nivel de documento | No abordada | Sub-agente nuevo | Especialización de agentes | Basado en hooks |
+| **Sobrecarga de contexto** | Dos niveles (estáticas 3-5 reglas + verificación dinámica completa) | Alcance a nivel de documento | No abordada | Sub-agente nuevo | Especialización de agentes | Basado en hooks |
 | **Migración de herramientas** | 75% preservado (L1-L3 portables) | Parcialmente portable | La especificación sobrevive | Los documentos de estado sobreviven | Los documentos sobreviven | Basado en sesiones |
 | **Base teórica** | 15 teorías clásicas de IS | Ingeniería de contexto | Metodología SDD | Ingeniería de contexto | Ágil + agentes | PDCA |
 | **Configuración** | `npx ai-dev-os init` (CLI) | Creación manual de Markdown | Scripts de shell | Basado en prompts | Asistente de múltiples pasos | Archivos de configuración |
@@ -54,7 +54,7 @@ No escribas reglas de arriba hacia abajo. Deja que la IA genere código, encuent
 
 ### 3. "Menos es Más" para el Contexto
 
-La investigación muestra que demasiadas reglas degradan la salida de la IA. AI Dev OS cura 10-15 reglas de alto impacto para contexto estático, y verifica todas las 30+ dinámicamente bajo demanda.
+La investigación muestra que demasiadas reglas degradan la salida de la IA. AI Dev OS cura 3-5 reglas de alto impacto para contexto estático, y verifica todas las 30+ dinámicamente bajo demanda.
 
 ### 4. La Regla Centinela
 

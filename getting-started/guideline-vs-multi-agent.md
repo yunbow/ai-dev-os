@@ -56,7 +56,7 @@ Quality
 ```text
 Phase 1: Code Generation
   AI writes code with AI Dev OS guidelines loaded in context (CLAUDE.md)
-  → Baseline quality via static rules (10-15 high-impact rules)
+  → Baseline quality via static rules (3-5 high-impact rules)
   → Cost: included in normal AI coding
 
 Phase 2: Pre-Commit Check (/ai-dev-os-check)

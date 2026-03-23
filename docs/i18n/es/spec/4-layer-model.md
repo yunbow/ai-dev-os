@@ -92,7 +92,7 @@ No todas las directrices deben cargarse en el contexto de la IA en todo momento.
 **Contexto estático** (CLAUDE.md / .cursorrules / AGENTS.md):
 
 - Cargado por la IA en cada conversación
-- Debe contener solo **10-15 directrices de alto impacto** (seguridad, manejo de errores, nomenclatura, estructura del proyecto, descripción general del framework)
+- Debe contener solo **3-5 archivos de directrices específicas del proyecto** (seguridad, manejo de errores, nomenclatura, estructura del proyecto, descripción general del framework)
 - Curar manualmente — no eliminar automáticamente basándose en la frecuencia de violaciones (las reglas de baja frecuencia como las de seguridad pueden estar funcionando precisamente porque están presentes)
 
 **Verificaciones dinámicas** (skills/reglas del plugin):
