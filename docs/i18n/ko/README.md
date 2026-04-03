@@ -98,7 +98,8 @@ AI Dev OS는 효과적인 AI 코딩 규칙 파일을 체계적으로 작성하�
 - [4계층 모델](spec/4-layer-model.md) | [의존성 규칙](spec/dependency-rule.md) | [Specificity Cascade](spec/priority-cascade.md) | [수명 모델](spec/shelf-life.md)
 - [Tacit-to-Explicit Engineering](theory/tacit-to-explicit.md) | [고전 이론 매핑](theory/classical-theories.md) | [미래 대비](theory/future-proofing.md)
 - [프레임워크 비교](getting-started/comparison.md) | [가이드라인 vs 멀티 에이전트](getting-started/guideline-vs-multi-agent.md) | [도구 마이그레이션 가이드](getting-started/migration.md)
-- [Zenn Book: AI DEV OS (Japanese)](https://zenn.dev/yun_bow)
+- [Zenn: Books/Articles (Japanese)](https://zenn.dev/yun_bow/scraps/4677df6cc83625)
+- [Qiita: Articles (Japanese)](https://qiita.com/yun_bow/stocks/9dd1be4d8e04f9c5a58e)
 
 <details>
 <summary>디렉토리 구조</summary>

@@ -98,7 +98,8 @@ AI Dev OS は、主要な AI コーディングアシスタントの効果的な
 - [4層モデル](spec/4-layer-model.md) | [依存性ルール](spec/dependency-rule.md) | [Specificity Cascade](spec/priority-cascade.md) | [賞味期限モデル](spec/shelf-life.md)
 - [Tacit-to-Explicit Engineering](theory/tacit-to-explicit.md) | [古典理論との対応](theory/classical-theories.md) | [将来性](theory/future-proofing.md)
 - [フレームワーク比較](getting-started/comparison.md) | [ガイドライン vs マルチエージェント](getting-started/guideline-vs-multi-agent.md) | [ツール移行ガイド](getting-started/migration.md)
-- [Zenn Book: AI DEV OS](https://zenn.dev/yun_bow)
+- [Zenn: Books/Articles](https://zenn.dev/yun_bow/scraps/4677df6cc83625)
+- [Qiita: Articles](https://qiita.com/yun_bow/stocks/9dd1be4d8e04f9c5a58e)
 
 <details>
 <summary>ディレクトリ構造</summary>
