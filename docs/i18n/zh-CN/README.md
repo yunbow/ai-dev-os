@@ -99,7 +99,7 @@ AI Dev OS 提供了一种结构化方法来编写有效的 AI 编程规则文件
 - [Tacit-to-Explicit Engineering](theory/tacit-to-explicit.md) | [经典理论映射](theory/classical-theories.md) | [面向未来](theory/future-proofing.md)
 - [框架比较](getting-started/comparison.md) | [指南 vs 多智能体](getting-started/guideline-vs-multi-agent.md) | [工具迁移指南](getting-started/migration.md)
 - [官网](https://yunbow.github.io/ai-dev-os-web/)
-- [Dev.to: Articles](https://dev.to/yunbow/ai-dev-os-m4i)
+- [Dev.to: Articles](https://dev.to/yun_bow/ai-dev-os-m4i)
 - [Zenn: Books/Articles (Japanese)](https://zenn.dev/yun_bow/scraps/4677df6cc83625)
 - [Qiita: Articles (Japanese)](https://qiita.com/yun_bow/stocks/9dd1be4d8e04f9c5a58e)
 

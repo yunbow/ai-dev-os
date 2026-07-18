@@ -99,7 +99,7 @@ AI Dev OS proporciona un enfoque estructurado para escribir archivos de reglas d
 - [Tacit-to-Explicit Engineering](theory/tacit-to-explicit.md) | [Mapeo de Teorias Clasicas](theory/classical-theories.md) | [Preparación para el Futuro](theory/future-proofing.md)
 - [Comparacion de Frameworks](getting-started/comparison.md) | [Directrices vs Multi-Agente](getting-started/guideline-vs-multi-agent.md) | [Migracion de Herramientas](getting-started/migration.md)
 - [Sitio web oficial](https://yunbow.github.io/ai-dev-os-web/)
-- [Dev.to: Articles](https://dev.to/yunbow/ai-dev-os-m4i)
+- [Dev.to: Articles](https://dev.to/yun_bow/ai-dev-os-m4i)
 - [Zenn: Books/Articles (Japanese)](https://zenn.dev/yun_bow/scraps/4677df6cc83625)
 - [Qiita: Articles (Japanese)](https://qiita.com/yun_bow/stocks/9dd1be4d8e04f9c5a58e)
 
